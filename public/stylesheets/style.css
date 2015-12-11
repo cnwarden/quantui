@@ -1,0 +1,59 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: '微软雅黑','Helvetica Neue',sans-serif,SimHei;
+    font-size: 14px;
+    color: #323A45;
+    margin: 0px;
+    padding: 0px;
+}
+
+#top-menu {
+    position: fixed;
+    height: 64px;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    background-color: #FFF;
+    z-index: 100;
+}
+
+#top-menu > ul {
+    float: left;
+    height: 64px;
+    list-style: none;
+    padding: 0px;
+}
+
+#top-menu > ul > li{
+    float: left;
+    position: relative;
+    margin-left: 15px;
+    cursor: hand;
+}
+
+#full-page {
+    position: relative;
+    height: 100%;
+}
+
+#footer {
+    border-top: 1px solid #DDD;
+    background-color: #FFF;
+}
+
+#footer > ul {
+    float: left;
+    height: 64px;
+    list-style: none;
+    padding: 0px;
+}
+
+#footer > ul > li{
+    float: left;
+    position: relative;
+    margin-left: 15px;
+    cursor: hand;
+}
