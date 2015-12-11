@@ -1,0 +1,27 @@
+{
+  "name": "quantui",
+  "version": "1.0.0",
+  "description": "quant web frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnwarden/quantui.git"
+  },
+  "keywords": [
+    "quant",
+    "web",
+    "frontend"
+  ],
+  "author": "cnwarden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cnwarden/quantui/issues"
+  },
+  "homepage": "https://github.com/cnwarden/quantui#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
